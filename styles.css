@@ -1,0 +1,100 @@
+body {
+	font-family: 'PoppinsRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.86em;
+}
+a {
+	color: #212529;
+	outline: none;
+}
+a:hover {
+	color: #a3072c;
+}
+.header {
+	align-items: center;
+	background: #a3072c;
+	color: #fff;
+	display: flex;
+	font-family: 'GlacialIndifferenceBold';
+	border-radius: 30px;
+}
+.header img {
+	border-radius: 50%;
+	border: 3px solid #fcfbf9;
+	margin: 20px 95px;
+	order: 0;
+	width: 200px;
+}
+.header .title {
+	order: 1;
+	text-align: center;
+}
+.header .title h1 {
+	font-size: 3em;
+}
+.header .title h2 {
+	font-size: 1.5em;
+	font-family: 'GlacialIndifferenceRegular';
+}
+
+.sidebar .title h2{
+	font-size: 1.2em;
+	font-weight: 900;
+}
+.sidebar {
+	background: #ffff;
+}
+
+.sidebar address {
+	color: #212529;
+	padding: 0 0 0 15px;
+	list-style: none;
+}
+.sidebar address ul {
+	list-style: none;
+	margin: 0;
+}
+.sidebar ul {
+	padding: 0 0 0 10px;
+	list-style: square;
+	color: #212529;
+}
+.sidebar .socialnetworks {
+	display: flex;
+	font-size: 3em;
+	list-style: none;
+	letter-spacing: 0.5em;
+}
+.main {
+	background: #0000;
+}
+.main h2 {
+	font-size: 1.3em;
+	font-weight: 900;
+}
+.main ul {
+	padding: 0 0 0 15px;
+	list-style: square;
+}
+.main .title {
+	display: flex;
+	justify-content: space-between;
+}
+.sidebar h1, .main h1, .main h2 {
+	color: #3d3c3a;
+	border: 1px solid #fff;
+	font-family: 'GlacialIndifferenceRegular';
+
+}
+.sidebar h1, .main h1 {
+	color: #fff;
+	font-size: 1.8em;
+	margin: 20px auto;
+	text-align: center;
+	border-radius: 10px;
+	border-color: #a3072c;
+	border-width: medium;
+	border-style: solid;
+	background: #a3072c;
+}
