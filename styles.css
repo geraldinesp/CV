@@ -13,7 +13,7 @@ a:hover {
 }
 .header {
 	align-items: center;
-	background: #a3072c;
+	background: #A0A0A0;
 	color: #fff;
 	display: flex;
 	font-family: 'GlacialIndifferenceBold';
@@ -82,8 +82,8 @@ a:hover {
 	justify-content: space-between;
 }
 .sidebar h1, .main h1, .main h2 {
-	color: #3d3c3a;
-	border: 1px solid #fff;
+	color: #686868;
+	border: 1px solid #686868;
 	font-family: 'GlacialIndifferenceRegular';
 
 }
