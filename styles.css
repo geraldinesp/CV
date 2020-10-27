@@ -83,7 +83,7 @@ a:hover {
 }
 .sidebar h1, .main h1, .main h2 {
 	color: #686868;
-	border: 1px solid #686868;
+	border: 1px solid #fff;
 	font-family: 'GlacialIndifferenceRegular';
 
 }
